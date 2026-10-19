@@ -1,0 +1,19 @@
+# Node.jsのインストール済みライブラリ
+node_modules/
+
+# ビルドや一時ファイル
+build/
+dist/
+target/
+
+# SQLiteの一時ファイル
+*.db-shm
+*.db-wal
+
+# 環境変数や秘密情報
+.env
+.env.*
+
+# OSの一時ファイル
+.DS_Store
+Thumbs.db
